@@ -1,5 +1,7 @@
 from pyburger.models import Burger
 
+
+Burger.objects.first()                           첫번재 객체를 가져옴.
 Burger.objects.all()                              전체 레코드 불러오기  QuerySet 반환
 Burger.objects.filter(name__endswith='와퍼')       이름이 와퍼로 끝나는 모든 버거(만족하는 여러개) QuerySet 반환 리스트 처럼 사용가능
 Burger.objects.get(name='더블와퍼')                특정 레코드 불러오기(조건을 만족하는 한개)

@@ -1,0 +1,2 @@
+post = Post.objects.first()     // Post의 첫번째 객체
+post.comment_set.all()              // 첫번째 Post에 연결된 Comment의 모든 객체 반환
